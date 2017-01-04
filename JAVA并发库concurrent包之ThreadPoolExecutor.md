@@ -187,6 +187,8 @@ private final AtomicInteger ctl = new AtomicInteger(ctlOf(RUNNING, 0));
 3. 采用有界的工作队列AraayBlockingQueue。这种情况下对于内存资源是可控的，但是需要合理调节MaximumPoolSize和工作队列的长度，这两个值是相互影响的。当工作队列长度比较小的时，必定会创建更多的线程。而更多的线程会引起上下文切换等额外的消耗。**当工作队列大，MaximumPoolSize小的时候，会影响吞吐量，并且会触发拒绝机制**
 
 
-参考：
-http://www.cnblogs.com/hanmou/p/4622950.html
-http://blog.csdn.net/ITer_ZC/article/details/46913841
+参考：  
+
+http://www.cnblogs.com/hanmou/p/4622950.html  
+
+http://blog.csdn.net/ITer_ZC/article/details/46913841  
