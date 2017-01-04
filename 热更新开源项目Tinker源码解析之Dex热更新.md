@@ -1,9 +1,12 @@
-﻿# 热更新开源项目Tinker源码解析之Dex热更新
+# 热更新开源项目Tinker源码解析之Dex热更新
 
-标签（空格分隔）： Android 开源项目 热更新
+Android 开源项目 热更新
 
 ---
-Tinker中Dex的热更新主要分为三个部分：一是补丁包的生成；二是补丁包下发后生成全量Dex；三是生成全量Dex后的加载过程。
+Tinker中Dex的热更新主要分为三个部分：
+一、补丁包的生成；
+二、补丁包下发后生成全量Dex；
+三、生成全量Dex后的加载过程。
 
 ##一、生成补丁流程
 当在命令行里面调用tinkerPatchRelease任务时会调用com.tencent.tinker.build.patch.Runner.tinkerPatch()进行生成补丁生成过程。
@@ -125,7 +128,8 @@ DexDiffDecoder.onAllPatchesEnd()
 DexDiffDecoder.generatePatchedDexInfoFile() 
 在patch完成后，会调用generatePatchInfoFile生成补丁文件。
 DexFiffDecoder.generatePatchInfoFile中首先遍历oldAndNewDexFilePairList，取出新旧文件对。判断新旧文件的MD5是否相等，不相等，说明有变化，会根据新旧文件创建DexPatchGenerator，DexPatchGenerator构造函数中包含了15个Dex区域的比较算法：
->StringDataSectionDiffAlgorithm
+```java
+StringDataSectionDiffAlgorithm
 TypeIdSectionDiffAlgorithm
 ProtoIdSectionDiffAlgorithm
 FieldIdSectionDiffAlgorithm
@@ -140,12 +144,14 @@ DebugInfoItemSectionDiffAlgorithm
 AnnotationSectionDiffAlgorithm
 StaticValueSectionDiffAlgorithm
 AnnotationsDirectorySectionDiffAlgorithm
+```
 
 
 DexDiffDecoder.executeAndSaveTo(OutputStream out) 
 这个函数里面会根据上面的15个算法对dex的各个区域进行比较，最后生成dex文件的差异，**这是整个dex diff算法的核心**。
-以StringDataSectionDiffAlgorithm为例
->获取oldDex中StringData区域的Item，并进行排序
+以StringDataSectionDiffAlgorithm为例:
+```java
+获取oldDex中StringData区域的Item，并进行排序
 获取newDex中StringData区域的Item，并进行排序
 然后对ITEM依次比较
 <0
@@ -161,6 +167,7 @@ new item已到结尾
 最后对对patchOperationList进行优化（
 {OP_DEL idx} followed by {OP_ADD the_same_idx newItem} will be replaced by {OP_REPLACE idx newItem}）
 关于DexDiff算法，更加详细的介绍可以参考https://www.zybuluo.com/dodola/note/554061，算法名曰二路归并。
+```
 
 对每个区域比较后会将比较的结果写入文件中，文件格式写在DexDataBuffer中
 ```java
