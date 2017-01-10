@@ -117,8 +117,10 @@ tasks.all {
 ```java
 ./gradlew resguardRelease
 ```
-生成的apk文件放在${app}\build\bakApk\resguard\目录下
+生成的apk文件放在${app}\build\bakApk\resguard\目录下  
+
 **打补丁包：**  
+
 
 ```java
 ./gradlew tinkerPatchRelease
