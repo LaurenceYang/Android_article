@@ -7,8 +7,10 @@ articles by yang.
 [热更新开源项目Tinker源码解析之资源热更新](https://github.com/LaurenceYang/article/blob/master/%E7%83%AD%E6%9B%B4%E6%96%B0%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AETinker%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90%E4%B9%8B%E8%B5%84%E6%BA%90%E7%83%AD%E6%9B%B4%E6%96%B0.md)
 
 [热更新开源项目Tinker源码解析之Library热更新]
-(https://github.com/LaurenceYang/article/blob/master/%E7%83%AD%E6%9B%B4%E6%96%B0%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AETinker%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90%E4%B9%8BLibrary%E7%83%AD%E6%9B%B4%E6%96%B0.md)
+(https://github.com/LaurenceYang/article/blob/master/%E7%83%AD%E6%9B%B4%E6%96%B0%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AETinker%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90%E4%B9%8BLibrary%E7%83%AD%E6%9B%B4%E6%96%B0.md)  
 
+[Android热更新开源项目Tinker集成实践总结]
+(https://github.com/LaurenceYang/article/blob/master/Android%E7%83%AD%E6%9B%B4%E6%96%B0%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AETinker%E9%9B%86%E6%88%90%E5%AE%9E%E8%B7%B5%E6%80%BB%E7%BB%93.md)
 
 ##异步并发
 [JAVA并发库concurrent包之ThreadPoolExecutor](https://github.com/LaurenceYang/article/blob/master/JAVA%E5%B9%B6%E5%8F%91%E5%BA%93concurrent%E5%8C%85%E4%B9%8BThreadPoolExecutor.md)
