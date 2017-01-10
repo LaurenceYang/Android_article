@@ -153,9 +153,12 @@ if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
 适配权限时最重要的是找到权限使用时代码的路径，但存在某些危险权限的代码路径存在第三方lib中，这种情况下只能在首次使用lib前进行权限的请求，但要结合自己的业务需求考虑带来的用户体验问题。
 如我们的应用大多在第三方lib中使用了危险权限（读取短信，地址信息等），例如支付流程，如果在这些流程中进行权限的申请，可能造成流程的中断，影响用户体验及业务的需要。因此这种情况我们只适配了特殊权限，然后targetSdkVersion回退到22，让系统进行危险权限的授权。
 
-参考文档：
-http://open.letv.com/guide/?page_id=2400
-https://developer.android.com/training/permissions/requesting.html#explain
+参考文档：  
+
+http://open.letv.com/guide/?page_id=2400  
+
+https://developer.android.com/training/permissions/requesting.html#explain  
+
 
 
 

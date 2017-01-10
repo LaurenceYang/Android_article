@@ -38,11 +38,16 @@ AndResGuards是微信张绍文大神开源的项目，该项目可以帮助你�
 
 
 
-参考：
-https://github.com/shwenzhang/AndResGuard/blob/master/doc/how_to_work.zh-cn.md
-[安装包立减1M--微信Android资源混淆打包工具](http://mp.weixin.qq.com/s?__biz=MzAwNDY1ODY2OQ==&mid=208135658&idx=1&sn=ac9bd6b4927e9e82f9fa14e396183a8f#rd)
-[Android逆向之旅---解析编译之后的Resource.arsc文件格式](http://blog.csdn.net/jiangwei0910410003/article/details/50628894)
-[Apktool](https://github.com/iBotPeaches/Apktool)
+参考：  
+
+https://github.com/shwenzhang/AndResGuard/blob/master/doc/how_to_work.zh-cn.md   
+
+[安装包立减1M--微信Android资源混淆打包工具](http://mp.weixin.qq.com/s?__biz=MzAwNDY1ODY2OQ==&mid=208135658&idx=1&sn=ac9bd6b4927e9e82f9fa14e396183a8f#rd)  
+
+[Android逆向之旅---解析编译之后的Resource.arsc文件格式](http://blog.csdn.net/jiangwei0910410003/article/details/50628894)  
+
+[Apktool](https://github.com/iBotPeaches/Apktool)  
+
 
 
 
