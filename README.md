@@ -35,3 +35,11 @@ articles by yang.
   
 ##算法相关
 [拓扑排序](https://github.com/LaurenceYang/article/blob/master/%E6%8B%93%E6%89%91%E6%8E%92%E5%BA%8F.md)
+
+  
+##个人公众号:程序猿说事儿  
+
+微信号：ProgrammerTalk  
+
+![微信公众号](https://github.com/LaurenceYang/tinker-dex-dump/blob/master/asserts/qrcode_for_gh_6510fb15de52_258.jpg)
+
