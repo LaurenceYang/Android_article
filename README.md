@@ -7,12 +7,10 @@ articles by yang.
 
 [热更新开源项目Tinker源码解析之资源热更新](https://github.com/LaurenceYang/article/blob/master/%E7%83%AD%E6%9B%B4%E6%96%B0%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AETinker%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90%E4%B9%8B%E8%B5%84%E6%BA%90%E7%83%AD%E6%9B%B4%E6%96%B0.md)
 
-[热更新开源项目Tinker源码解析之Library热更新]
-(https://github.com/LaurenceYang/article/blob/master/%E7%83%AD%E6%9B%B4%E6%96%B0%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AETinker%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90%E4%B9%8BLibrary%E7%83%AD%E6%9B%B4%E6%96%B0.md)  
+[热更新开源项目Tinker源码解析之Library热更新](https://github.com/LaurenceYang/article/blob/master/%E7%83%AD%E6%9B%B4%E6%96%B0%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AETinker%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90%E4%B9%8BLibrary%E7%83%AD%E6%9B%B4%E6%96%B0.md)  
 
-[Android热更新开源项目Tinker集成实践总结]
-(https://github.com/LaurenceYang/article/blob/master/Android%E7%83%AD%E6%9B%B4%E6%96%B0%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AETinker%E9%9B%86%E6%88%90%E5%AE%9E%E8%B7%B5%E6%80%BB%E7%BB%93.md)
-  
+[Android热更新开源项目Tinker集成实践总结](https://github.com/LaurenceYang/article/blob/master/Android%E7%83%AD%E6%9B%B4%E6%96%B0%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AETinker%E9%9B%86%E6%88%90%E5%AE%9E%E8%B7%B5%E6%80%BB%E7%BB%93.md)
+
 [DexDiff格式查看工具](https://github.com/LaurenceYang/tinker-dex-dump)
 
 ##异步并发
@@ -22,6 +20,22 @@ articles by yang.
 
 [Android litesuites之异步并发类库android-lite-go](https://github.com/LaurenceYang/article/blob/master/Android%20litesuites%E4%B9%8B%E5%BC%82%E6%AD%A5%E5%B9%B6%E5%8F%91%E7%B1%BB%E5%BA%93android-lite-go.md)
 
+线程调度之Handler</br>
+
+## 网络请求
+
+[HTTP协议（RFC2616）](https://datatracker.ietf.org/doc/rfc2616/)
+
+[HTTP详解]()
+
+## 数据库
+
+[GreenDao]()
+
+## 图片加载
+
+Fresco是如何"偷"内存减少OOM的</br>
+
 ##编译打包
 [Android混淆工具AndResGuard](https://github.com/LaurenceYang/article/blob/master/Android%E6%B7%B7%E6%B7%86%E5%B7%A5%E5%85%B7AndResGuard.md)
 
@@ -29,13 +43,76 @@ articles by yang.
 
 [Android热更新-资源混淆-编译-多渠道打包流程的整合](https://github.com/LaurenceYang/article/blob/master/Android%E7%83%AD%E6%9B%B4%E6%96%B0-%E8%B5%84%E6%BA%90%E6%B7%B7%E6%B7%86-%E7%BC%96%E8%AF%91-%E5%A4%9A%E6%B8%A0%E9%81%93%E6%89%93%E5%8C%85%E6%B5%81%E7%A8%8B%E7%9A%84%E6%95%B4%E5%90%88.md)
 
+## 构建插件
+
+构建插件Demo</br>
+
+理解Gradle体系</br>
+
 
 ##适配相关
 [Android6.0适配](https://github.com/LaurenceYang/article/blob/master/Android6.0%E9%80%82%E9%85%8D.md)
-  
+
+Android7.0适配</br>
+
+Android7.0特性（混合编译，编译／AOT／JIT）</br>
+
+Dalvik与ART</br>
+
+## 架构设计
+
+MVC
+
+MVP
+
+MVVC
+
+## 设计模式
+
+GOF
+
+## 系统原理
+
+进程间通信（AIDL、binder）</br>
+
+内存管理（LMK）</br>
+
+AMS、PMS等</br>
+
+电源管理</br>
+
+Sensor管理</br>
+
+## 性能优化
+
+APK大小优化</br>
+
+OOM优化</br>
+
+UI如OverDraw优化</br>
+
+网络请求优化</br>
+
+## 安全问题
+
+AES/RSA接口加密
+
+HTTPS
+
 ##算法相关
 [拓扑排序](https://github.com/LaurenceYang/article/blob/master/%E6%8B%93%E6%89%91%E6%8E%92%E5%BA%8F.md)
 
+## React Native
+
+
+
+## JAVA高级
+
+[范型]()
+
+##编程规范
+
+[Java开发手册]()
 
 ---
 个人公众号:程序猿说事儿  
