@@ -28,6 +28,9 @@ articles by yang.
 
 [HTTP详解](https://github.com/LaurenceYang/article/blob/master/%E7%BD%91%E7%BB%9C%E8%AF%B7%E6%B1%82/HTTP%E8%AF%A6%E8%A7%A3.md)
 
+##动画库
+[lottie-android](https://github.com/airbnb/lottie-android)
+
 ## 数据库
 
 [GreenDao]()
