@@ -46,6 +46,7 @@ Fresco是如何"偷"内存减少OOM的</br>
 
 [Android热更新-资源混淆-编译-多渠道打包流程的整合](https://github.com/LaurenceYang/article/blob/master/%E7%BC%96%E8%AF%91%E6%89%93%E5%8C%85/Android%E7%83%AD%E6%9B%B4%E6%96%B0-%E8%B5%84%E6%BA%90%E6%B7%B7%E6%B7%86-%E7%BC%96%E8%AF%91-%E5%A4%9A%E6%B8%A0%E9%81%93%E6%89%93%E5%8C%85%E6%B5%81%E7%A8%8B%E7%9A%84%E6%95%B4%E5%90%88.md)
 
+[Android 平台上的秒级编译方案](https://yq.aliyun.com/articles/59122?spm=5176.8091938.0.0.1Bw3mU)
 ## 构建插件
 
 构建插件Demo</br>
