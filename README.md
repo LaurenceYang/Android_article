@@ -30,6 +30,9 @@ articles by yang.
 
 [[原]HTTP详解](https://github.com/LaurenceYang/article/blob/master/%E7%BD%91%E7%BB%9C%E8%AF%B7%E6%B1%82/HTTP%E8%AF%A6%E8%A7%A3.md)
 
+##动画库
+[lottie-android](https://github.com/airbnb/lottie-android)
+
 ## 数据库
 
 [[开源项目]GreenDao](https://github.com/greenrobot/greenDAO)
@@ -47,6 +50,7 @@ articles by yang.
 
 [[转]极简上传library到JCenter](http://blog.csdn.net/wzgiceman/article/details/53707042)
 
+[Android 平台上的秒级编译方案](https://yq.aliyun.com/articles/59122?spm=5176.8091938.0.0.1Bw3mU)
 ## 构建插件
 
 [[转]构建插件Demo](http://blog.bugtags.com/2016/03/28/embrace-android-studio-gradle-plugin/)</br>
