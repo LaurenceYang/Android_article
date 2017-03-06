@@ -22,7 +22,7 @@ Android articles by yang.满满的都是干货。
 
 [[转]Android异步消息处理机制](http://blog.csdn.net/lmj623565791/article/details/38377229/)
 
-[[原]换个角度看Android异步通信原理]()
+[[原]换个角度看Android异步通信原理](https://github.com/LaurenceYang/article/blob/master/%E5%BC%82%E6%AD%A5%E5%B9%B6%E5%8F%91/%E6%8D%A2%E4%B8%AA%E8%A7%92%E5%BA%A6%E7%9C%8BAndroid%E5%BC%82%E6%AD%A5%E9%80%9A%E4%BF%A1%E5%8E%9F%E7%90%86.md)
 
 ## 网络请求
 
@@ -62,11 +62,11 @@ Android articles by yang.满满的都是干货。
 
 [[google发布]Android性能优化宝典译文](http://hukai.me/android-performance-patterns/)
 
-[[原]APK大小优化]()
+[[原]APK大小优化](https://github.com/LaurenceYang/article/blob/master/%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/APK%E5%A4%A7%E5%B0%8F%E4%BC%98%E5%8C%96.md)
 
-[[原]OOM优化]()
+[[原]OOM优化](https://github.com/LaurenceYang/article/blob/master/%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/OOM%E4%BC%98%E5%8C%96.md)
 
-[[原]UI优化]()
+[[原]UI优化](https://github.com/LaurenceYang/article/blob/master/%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/UI%E4%BC%98%E5%8C%96.md)
 
 [[原]网络请求优化](https://github.com/LaurenceYang/EasyHttp)
 
