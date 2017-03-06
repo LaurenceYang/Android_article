@@ -41,7 +41,7 @@ Android articles by yang.满满的都是干货。
 
 ## 图片加载
 
-[[原]Fresco是如何"偷"内存减少OOM的]()
+[[原]Fresco是如何"偷"内存减少OOM的](https://github.com/LaurenceYang/Android_article/blob/master/%E5%9B%BE%E7%89%87%E5%8A%A0%E8%BD%BD/Android%E5%9B%BE%E7%89%87%E5%8A%A0%E8%BD%BD%E5%BA%93%E4%B9%8BFresco_%E6%9D%A8%E6%89%AC.ppt)
 
 ~~[[原][开源项目][Deprecated]Fresco容量删减版本](https://github.com/LaurenceYang/fresco)~~
 
