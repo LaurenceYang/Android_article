@@ -24,6 +24,12 @@ Android articles by yang.满满的都是干货。
 
 [[原]换个角度看Android异步通信原理](https://github.com/LaurenceYang/article/blob/master/%E5%BC%82%E6%AD%A5%E5%B9%B6%E5%8F%91/%E6%8D%A2%E4%B8%AA%E8%A7%92%E5%BA%A6%E7%9C%8BAndroid%E5%BC%82%E6%AD%A5%E9%80%9A%E4%BF%A1%E5%8E%9F%E7%90%86.md)
 
+[[转]给 Android 开发者的 RxJava 详解](http://gank.io/post/560e15be2dca930e00da1083#toc_26)
+
+
+## 动态组件化(Dynamic Bundle)框架
+[[开源项目]atlas](https://github.com/alibaba/atlas)
+
 ## 网络请求
 
 [[标准]HTTP协议（RFC2616）](https://datatracker.ietf.org/doc/rfc2616/)
