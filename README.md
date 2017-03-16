@@ -2,7 +2,7 @@
 Android articles by yang.满满的都是干货。
 [More...>>>](http://www.cnblogs.com/yyangblog/)
 
-##热更新</br>
+## 热更新</br>
 [[原]热更新开源项目Tinker源码解析之Dex热更新](https://github.com/LaurenceYang/article/blob/master/%E7%83%AD%E6%9B%B4%E6%96%B0/%E7%83%AD%E6%9B%B4%E6%96%B0%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AETinker%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90%E4%B9%8BDex%E7%83%AD%E6%9B%B4%E6%96%B0.md)
 
 [[原]热更新开源项目Tinker源码解析之资源热更新](https://github.com/LaurenceYang/article/blob/master/%E7%83%AD%E6%9B%B4%E6%96%B0/%E7%83%AD%E6%9B%B4%E6%96%B0%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AETinker%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90%E4%B9%8B%E8%B5%84%E6%BA%90%E7%83%AD%E6%9B%B4%E6%96%B0.md)
@@ -13,7 +13,7 @@ Android articles by yang.满满的都是干货。
 
 [[原][开源项目]DexDiff格式解析工具](https://github.com/LaurenceYang/tinker-dex-dump)
 
-##异步并发</br>
+## 异步并发</br>
 [[原]JAVA并发库concurrent包之ThreadPoolExecutor](https://github.com/LaurenceYang/article/blob/master/%E5%BC%82%E6%AD%A5%E5%B9%B6%E5%8F%91/JAVA%E5%B9%B6%E5%8F%91%E5%BA%93concurrent%E5%8C%85%E4%B9%8BThreadPoolExecutor.md)
 
 [[原]Android AsyncTask源码分析](https://github.com/LaurenceYang/article/blob/master/%E5%BC%82%E6%AD%A5%E5%B9%B6%E5%8F%91/Android%20AsyncTask%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90.md)
@@ -38,7 +38,7 @@ Android articles by yang.满满的都是干货。
 
 [[原][开源项目]网络通信组件EasyHttp](https://github.com/LaurenceYang/EasyHttp)
 
-##动画库
+## 动画库
 [[开源项目]lottie-android](https://github.com/airbnb/lottie-android)
 
 ## 数据库
@@ -51,7 +51,7 @@ Android articles by yang.满满的都是干货。
 
 ~~[[原][开源项目][Deprecated]Fresco容量删减版本](https://github.com/LaurenceYang/fresco)~~
 
-##编译打包
+## 编译打包
 [[原]Android混淆工具AndResGuard解析](https://github.com/LaurenceYang/article/blob/master/%E7%BC%96%E8%AF%91%E6%89%93%E5%8C%85/Android%E6%B7%B7%E6%B7%86%E5%B7%A5%E5%85%B7AndResGuard.md)
 
 [[原]Android打包工具packer-ng-plugin解析](https://github.com/LaurenceYang/article/blob/master/%E7%BC%96%E8%AF%91%E6%89%93%E5%8C%85/Android%E6%89%93%E5%8C%85%E5%B7%A5%E5%85%B7packer-ng-plugin.md)
@@ -77,7 +77,7 @@ Android articles by yang.满满的都是干货。
 [[原]网络请求优化](https://github.com/LaurenceYang/EasyHttp)
 
 
-##适配相关</br>
+## 适配相关</br>
 [[原]Android6.0适配](https://github.com/LaurenceYang/article/blob/master/%E9%80%82%E9%85%8D%E7%9B%B8%E5%85%B3/Android6.0%E9%80%82%E9%85%8D.md)
 
 [[转]Android7.0适配](http://www.jianshu.com/p/56b9fb319310)
