@@ -2,7 +2,7 @@
 Android articles by yang.满满的都是干货。
 [More...>>>](http://www.cnblogs.com/yyangblog/)
 
-##热更新
+##热更新</br>
 [[原]热更新开源项目Tinker源码解析之Dex热更新](https://github.com/LaurenceYang/article/blob/master/%E7%83%AD%E6%9B%B4%E6%96%B0/%E7%83%AD%E6%9B%B4%E6%96%B0%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AETinker%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90%E4%B9%8BDex%E7%83%AD%E6%9B%B4%E6%96%B0.md)
 
 [[原]热更新开源项目Tinker源码解析之资源热更新](https://github.com/LaurenceYang/article/blob/master/%E7%83%AD%E6%9B%B4%E6%96%B0/%E7%83%AD%E6%9B%B4%E6%96%B0%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AETinker%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90%E4%B9%8B%E8%B5%84%E6%BA%90%E7%83%AD%E6%9B%B4%E6%96%B0.md)
@@ -13,7 +13,7 @@ Android articles by yang.满满的都是干货。
 
 [[原][开源项目]DexDiff格式解析工具](https://github.com/LaurenceYang/tinker-dex-dump)
 
-##异步并发
+##异步并发</br>
 [[原]JAVA并发库concurrent包之ThreadPoolExecutor](https://github.com/LaurenceYang/article/blob/master/%E5%BC%82%E6%AD%A5%E5%B9%B6%E5%8F%91/JAVA%E5%B9%B6%E5%8F%91%E5%BA%93concurrent%E5%8C%85%E4%B9%8BThreadPoolExecutor.md)
 
 [[原]Android AsyncTask源码分析](https://github.com/LaurenceYang/article/blob/master/%E5%BC%82%E6%AD%A5%E5%B9%B6%E5%8F%91/Android%20AsyncTask%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90.md)
@@ -27,10 +27,10 @@ Android articles by yang.满满的都是干货。
 [[转]给 Android 开发者的 RxJava 详解](http://gank.io/post/560e15be2dca930e00da1083#toc_26)
 
 
-## 动态组件化(Dynamic Bundle)框架
+## 动态组件化(Dynamic Bundle)框架</br>
 [[开源项目]atlas](https://github.com/alibaba/atlas)
 
-## 网络请求
+## 网络请求</br>
 
 [[标准]HTTP协议（RFC2616）](https://datatracker.ietf.org/doc/rfc2616/)
 
@@ -62,7 +62,7 @@ Android articles by yang.满满的都是干货。
 
 [[转]Android 平台上的秒级编译方案Freeline](https://yq.aliyun.com/articles/59122?spm=5176.8091938.0.0.1Bw3mU)
 
-## 性能优化
+## 性能优化</br>
 
 [[google发布]Android性能优化宝典视频](https://www.youtube.com/playlist?list=PLWz5rJ2EKKc9CBxr3BVjPTPoDPLdPIFCE)
 
@@ -77,7 +77,7 @@ Android articles by yang.满满的都是干货。
 [[原]网络请求优化](https://github.com/LaurenceYang/EasyHttp)
 
 
-##适配相关
+##适配相关</br>
 [[原]Android6.0适配](https://github.com/LaurenceYang/article/blob/master/%E9%80%82%E9%85%8D%E7%9B%B8%E5%85%B3/Android6.0%E9%80%82%E9%85%8D.md)
 
 [[转]Android7.0适配](http://www.jianshu.com/p/56b9fb319310)
@@ -86,7 +86,7 @@ Android articles by yang.满满的都是干货。
 
 [[官方]Dalvik与ART](http://source.android.com/devices/tech/dalvik/index.html)
 
-## 架构设计
+## 架构设计</br>
 
 [[googlesamples]android-architecture](https://github.com/googlesamples/android-architecture)
 
@@ -94,11 +94,11 @@ Android articles by yang.满满的都是干货。
 
 [[googlesamples]mvvm](https://github.com/googlesamples/android-architecture/tree/dev-todo-mvvm-databinding/)
 
-## NDK
+## NDK</br>
 
 [[googlesamples]android-ndk](https://github.com/googlesamples/android-ndk)
 
-## 设计模式
+## 设计模式</br>
 
 [[Book]GOF的设计模式：可复用面向对象软件的基础](http://item.jd.com/10057319.html)
 
@@ -110,27 +110,27 @@ Android articles by yang.满满的都是干货。
 
 [[开源项目]Android源码设计模式分析项目](https://github.com/simple-android-framework/android_design_patterns_analysis)
 
-## 构建插件
+## 构建插件</br>
 
 [[转]构建插件Demo](http://blog.bugtags.com/2016/03/28/embrace-android-studio-gradle-plugin/)
 
 [[转]理解Gradle体系](http://www.infoq.com/cn/articles/android-in-depth-gradle)
 
-## 算法相关
+## 算法相关</br>
 
 [[原]拓扑排序](https://github.com/LaurenceYang/article/blob/master/%E7%AE%97%E6%B3%95%E7%9B%B8%E5%85%B3/%E6%8B%93%E6%89%91%E6%8E%92%E5%BA%8F.md)
 
 [[原]数据结构之查找算法总结笔记](http://www.cnblogs.com/yyangblog/archive/2010/12/31/1923128.html)
 
-## 编程规范
+## 编程规范</br>
 
 [[标准]Java开发手册(阿里巴巴首次向JAVA业界开放)](https://github.com/LaurenceYang/article/blob/master/%E7%BC%96%E7%A8%8B%E8%A7%84%E8%8C%83/JAVA%E5%BC%80%E5%8F%91%E6%89%8B%E5%86%8C%E6%AD%A3%E5%BC%8F%E5%8F%91%E5%B8%83.pdf)
 
-## React Native
+## React Native</br>
 
 [[官方]RN](http://facebook.github.io/react-native/)
 
-## JAVA高级
+## JAVA高级</br>
 
 [[转]深入理解JAVA范型](http://blog.csdn.net/sunxianghuang/article/details/51982979)
 
