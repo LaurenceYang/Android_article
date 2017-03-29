@@ -110,7 +110,9 @@ Android articles by yang.满满的都是干货。
 
 [[开源项目]Android源码设计模式分析项目](https://github.com/simple-android-framework/android_design_patterns_analysis)
 
-## 构建插件</br>
+## Gradle构建插件</br>
+
+[[原]Gradle知识体系](https://github.com/LaurenceYang/Android_article/blob/master/%E6%9E%84%E5%BB%BA%E6%8F%92%E4%BB%B6/Gradle%E7%9F%A5%E8%AF%86%E4%BD%93%E7%B3%BB.md)
 
 [[转]构建插件Demo](http://blog.bugtags.com/2016/03/28/embrace-android-studio-gradle-plugin/)
 
