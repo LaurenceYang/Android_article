@@ -1,10 +1,8 @@
 ﻿# Gradle知识体系
 
-标签（空格分隔）： Android gradle
-
 ---
-##基本项目
-###简单的构建文件
+## 基本项目
+### 简单的构建文件
 一个Gradle项目的构建过程定义在build.gradle文件中，位于项目的根目录下。</br>
 
 一个最简单的Gradle纯java项目的build.gradle文件包含以下内容</br>
@@ -50,7 +48,7 @@ android {
 >注意：你同样需要在相同路径下添加一个local.properties文件，并使用sdk.dir属性来设置SDK路径。 另外，你也可以通过设置ANDROID_HOME环境变量，这两种方式没有什么不同，根据你自己的喜好选择其中一种设置。
 
 
-###项目结构
+### 项目结构
 上面提到的基本的构建文件需要一个默认的文件夹结构。Gradle遵循约定优先于配置的概念，在可能的情况尽可能提供合理的默认配置参数。
 
 基本的项目开始于两个名为“source sets”的组件，即main source code和test code。它们分别位于：
@@ -72,11 +70,11 @@ android {
 > * rs/
 > * jni/
 
-###构建变种版本
+### 构建变种版本
 Build Type + Product Flavor = Build Variant（构建类型+定制产品=构建变种版本）
 
-###高级构建定制
-####Build options（构建选项）
+### 高级构建定制
+#### Build options（构建选项）
 * Java Compilation options（Java编译选项）
 ```
 android {
@@ -114,7 +112,7 @@ android {
 ``` 
 这将应用所有使用dex的task。
 
-####Manipulation tasks（操作task）
+#### Manipulation tasks（操作task）
 基础Java项目有一组有限的task用于互相处理生成一个输出。 classes是一个编译Java源代码的task。可以在build.gradle文件中通过脚本很容易使用classes。这是project.tasks.classes的缩写。
 
 在Android项目中，相比之下这就有点复杂。因为Android项目中会有大量相同的task，并且它们的名字基于Build Types和Product Flavor生成。
@@ -137,7 +135,7 @@ android.applicationVariants.each { variant ->
 
 每个task类型的API由于Gradle的工作方式和Android plugin的配置方式而受到限制。 首先，Gradle意味着拥有的task只能配置输入输出的路径和一些可能使用的选项标识。因此，task只能定义一些输入或者输出。
 
-次，这里面大多数task的输入都不是单一的，一般都混合了sourceSet、Build Type和Product Flavor中的值。为了保持构建文件的简单和可读性，目标是要让开发者通过DSL语言修改这些对象来配饰构建的过程，而不是深入修改输入和task的选项。
+其次，这里面大多数task的输入都不是单一的，一般都混合了sourceSet、Build Type和Product Flavor中的值。为了保持构建文件的简单和可读性，目标是要让开发者通过DSL语言修改这些对象来配饰构建的过程，而不是深入修改输入和task的选项。
 
 另外需要注意，除了ZipAlign这个task类型，其它所有类型都要求设置私有数据来让它们运行。这意味着不可能自动创建这些类型的新task实例。
 
@@ -147,7 +145,7 @@ android.applicationVariants.each { variant ->
 
 
 </br>
-##参考
+## 参考
 [Gradle Plugin UserGuide](http://tools.android.com/tech-docs/new-build-system/user-guide)
 [Gradle Android plugin插件用户指南翻译](http://avatarqing.github.io/Gradle-Plugin-User-Guide-Chinese-Verision/)
 [Android Plugin DSL Reference](http://google.github.io/android-gradle-dsl/current/)
