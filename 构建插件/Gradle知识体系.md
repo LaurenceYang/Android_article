@@ -145,12 +145,12 @@ android.applicationVariants.each { variant ->
 
 
 </br>
-## 参考
-[Gradle Plugin UserGuide](http://tools.android.com/tech-docs/new-build-system/user-guide)
-[Gradle Android plugin插件用户指南翻译](http://avatarqing.github.io/Gradle-Plugin-User-Guide-Chinese-Verision/)
-[Android Plugin DSL Reference](http://google.github.io/android-gradle-dsl/current/)
-[Gradle User Guide](https://docs.gradle.org/current/userguide/userguide_single.html)
-[The Java Plugin](https://docs.gradle.org/current/userguide/java_plugin.html#N12394)
+## 参考</br>
+[Gradle Plugin UserGuide](http://tools.android.com/tech-docs/new-build-system/user-guide)</br>
+[Gradle Android plugin插件用户指南翻译](http://avatarqing.github.io/Gradle-Plugin-User-Guide-Chinese-Verision/)</br>
+[Android Plugin DSL Reference](http://google.github.io/android-gradle-dsl/current/)</br>
+[Gradle User Guide](https://docs.gradle.org/current/userguide/userguide_single.html)</br>
+[The Java Plugin](https://docs.gradle.org/current/userguide/java_plugin.html#N12394)</br>
 
 
 
