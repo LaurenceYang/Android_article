@@ -16,7 +16,7 @@
 
 ##考虑二：多渠道打包的问题
 我们有将近100个渠道，每个渠道需要一个不同的渠道号，按product flavor的方式打出来的包的dex都有差异。这样就造成100个渠道包的热更新就需要100个补丁，这对管理简直是一个灾难。
-Tinker也对这种问题给出了推荐的方案，那就是使用开源项目packer-ng-plugin，它的原理是将渠道信息写在apk文件的zip comment中，这样在多渠道打包时就不会影响dex的内容。具体关于packer-ng-plugin的介绍，可以参考文档[Android打包工具packer-ng-plugin](https://github.com/LaurenceYang/article/blob/master/Android%E6%89%93%E5%8C%85%E5%B7%A5%E5%85%B7packer-ng-plugin.md)。
+Tinker也对这种问题给出了推荐的方案，那就是使用开源项目packer-ng-plugin，它的原理是将渠道信息写在apk文件的zip comment中，这样在多渠道打包时就不会影响dex的内容。具体关于packer-ng-plugin的介绍，可以参考文档[Android打包工具packer-ng-plugin](https://github.com/LaurenceYang/Android_article/blob/master/%E7%BC%96%E8%AF%91%E6%89%93%E5%8C%85/Android%E6%89%93%E5%8C%85%E5%B7%A5%E5%85%B7packer-ng-plugin.md)。
 
 ##考虑三：资源混淆所造成的问题
 目前项目使用了资源混淆项目AndResGuard，关于AndResGuard的介绍，可以参考文档AndResGuard[Android混淆工具AndResGuard](https://github.com/LaurenceYang/article/blob/master/Android%E6%B7%B7%E6%B7%86%E5%B7%A5%E5%85%B7AndResGuard.md)
@@ -24,7 +24,7 @@ Tinker也对这种问题给出了推荐的方案，那就是使用开源项目pa
 
 **整合前**  
 
-编译：编译直接使用AndResGuard提供的命令resguardRelease生成即可。resguardRelease生成的apk文件是没有资源混淆的。
+编译：编译直接使用AndResGuard提供的命令resguardRelease生成即可。注意：packer-ng提供的apkRelease命令生成的apk文件是没有资源混淆的。
 ```groovy
 ./gradlew resguardRelease
 ```
@@ -107,6 +107,7 @@ tasks.all {
     }
 }
 ```
+可根据业务进行修改  
 
 针对问题2、在AS中使用apkRelease任务打包的方式不再适用，可直接使用packer-ng所提供的命令行方式进行生成渠道包，经过测试，100个渠道包的确在10s左右就能打完，速度相当之快。考虑到市场推广人员会打不同渠道包，后期可做一个简易工具提供给市场推广人员。
 
@@ -120,10 +121,8 @@ tasks.all {
 生成的apk文件放在${app}\build\bakApk\resguard\目录下  
 
 **打补丁包：**  
-
-
 ```java
-./gradlew tinkerPatchRelease
+./gradlew tinkerPatchRelease  //mac下不需要执行下一个命令
 ./gradlew generateManifestForReleaseTinkerPatch
 ```
 最终生成的补丁放在${app}\build\outputs\patch\目录下
