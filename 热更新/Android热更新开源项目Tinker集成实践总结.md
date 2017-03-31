@@ -4,21 +4,21 @@
 
 ---
 
-##前言
+## 前言
 最近项目集成了Tinker，开始认为集成会比较简单，但是在实际操作的过程中还是遇到了一些问题，本文就会介绍在集成过程大家基本会遇到的主要问题。
 
-##考虑一：后台的选取
+## 考虑一：后台的选取
 目前后台功能可以通过三种方式实现：
 1、自己搭建后台布丁下发系统
 2、第三方提供的服务，目前如原微信simsun大神的个人tinkerpatch平台，目前出于内测阶段，暂时免费。后期应该会按下发量对app进行收费。
 3、腾讯Bugly提供的服务，提供了热更新的下发后台，集成到了bugly的升级sdk中。免费。
 根据公司的精神，我们选择了Bugly作为我们的方案，这个大家都懂得。
 
-##考虑二：多渠道打包的问题
+## 考虑二：多渠道打包的问题
 我们有将近100个渠道，每个渠道需要一个不同的渠道号，按product flavor的方式打出来的包的dex都有差异。这样就造成100个渠道包的热更新就需要100个补丁，这对管理简直是一个灾难。
 Tinker也对这种问题给出了推荐的方案，那就是使用开源项目packer-ng-plugin，它的原理是将渠道信息写在apk文件的zip comment中，这样在多渠道打包时就不会影响dex的内容。具体关于packer-ng-plugin的介绍，可以参考文档[Android打包工具packer-ng-plugin](https://github.com/LaurenceYang/Android_article/blob/master/%E7%BC%96%E8%AF%91%E6%89%93%E5%8C%85/Android%E6%89%93%E5%8C%85%E5%B7%A5%E5%85%B7packer-ng-plugin.md)。
 
-##考虑三：资源混淆所造成的问题
+## 考虑三：资源混淆所造成的问题
 目前项目使用了资源混淆项目AndResGuard，关于AndResGuard的介绍，可以参考文档AndResGuard[Android混淆工具AndResGuard](https://github.com/LaurenceYang/Android_article/blob/master/%E7%BC%96%E8%AF%91%E6%89%93%E5%8C%85/Android%E6%B7%B7%E6%B7%86%E5%B7%A5%E5%85%B7AndResGuard.md)
 也正是引入了资源混淆，热更新和多渠道打包都必须依赖资源混淆后生成的apk包才行。所以我们对编译流程进行了整合。
 
