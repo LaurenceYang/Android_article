@@ -47,9 +47,9 @@ public ThreadPoolExecutor(int corePoolSize,
                               RejectedExecutionHandler handler)
 ```
 ThreadPoolExecutor参数说明:
-> * corePoolSize ： 线程池中核心线程数
-> * maximumPoolSize ： 线程池中允许的最大线程数
-> * keepAliveTime ： 当前线程数大于核心线程数时，多出的线程在空闲时间超出keepAliveTime时将被终止
+> * corePoolSize ： 线程池中核心线程数。也可以理解为线程池中保存的线程的最小数，初始化是为0的，当有任务加到队列里的时候，就会创建新的线程，如果此时有空闲的线程，并且线程数小于corePoolSize，也会创建新的线程；
+> * maximumPoolSize ： 线程池中允许的最大线程数。如果maximumPoolSize>corePoolSize并且先前线程数>=corePoolSize，当只有队列满了，才会为新加入的work加入
+> * keepAliveTime ： 当前线程数大于核心线程数时，多出的线程（非核心线程）在空闲时间超出keepAliveTime时将被终止
 > * unit ： keepAliveTime的时间单位
 > * workQueue ： 执行前用于保持任务的队列
 > * threadFactory ： 执行程序创建新线程使用的工厂
