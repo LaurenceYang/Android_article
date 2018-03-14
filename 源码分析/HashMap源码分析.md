@@ -9,7 +9,7 @@ HashMap要关注的点：
 
 
 ## 内部数据结构
-```
+```java
 /**
  * The table, resized as necessary. Length MUST Always be a power of two.
  */
