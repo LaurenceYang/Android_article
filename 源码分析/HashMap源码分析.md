@@ -196,4 +196,4 @@ void transfer(HashMapEntry[] newTable) {
 
 HashMap的默认加载因子是0.75，即达到当前容量的0.75倍时，开始扩容操作，按照double size的容量进行扩容。
 
-扩容后，将老table的数据重新计算每个项的index然后移到新table里面。
+扩容后，将老table的数据重新计算每个项的index然后移到新table里面，即重新rehash操作。
